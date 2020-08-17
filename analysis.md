@@ -28,21 +28,27 @@ The algorithms produced the following output:
 	 - Order: 2302, 2401, 2706, 2201, 2052, 3401, 2602, 2052, 2104
 	 - Average waiting time: 8.44
 	 - Average turn around time: 10.44
-    ![FCFS Scheduling](https://i.imgur.com/s1joMvE.png)
-The FCFS algorithm has the highest waiting and turnaround time among the three algorithms used here. This is because it doesn't take into account the duration of the classes and schedules solely based upon the arrival time.
+
+        ![FCFS Scheduling](https://i.imgur.com/s1joMvE.png)
+
+        The FCFS algorithm has the highest waiting and turnaround time among the three algorithms used here. This is because it doesn't take into account the duration of the classes and schedules solely based upon the arrival time.
 
  - **SJF**
 	 - Order: 2706, 2052, 2052, 2401, 3401, 2104, 2302, 2201, 2602
 	 - Average waiting time: 6
 	 - Average turn around time: 8
-	![SJF Scheduling](https://i.imgur.com/BLEIjjT.png)
-SJF algorithm provides the lowest waiting and turnaround time for the given inputs. This can be explained by the fact that this scheduling algorithm is based on duration of the classes.
+
+        ![SJF Scheduling](https://i.imgur.com/BLEIjjT.png)
+
+        SJF algorithm provides the lowest waiting and turnaround time for the given inputs. This can be explained by the fact that this scheduling algorithm is based on duration of the classes.
 	
  - **Priority**
 	 - Order: 2104, 2602, 2052, 2052, 3401, 2201, 2401, 2302, 2706
 	 - Average waiting time: 8
-	 - Average turn around time: 10				 
-     ![Priority Scheduling](https://i.imgur.com/IQUqzYr.png)
-The Priority scheduling algorithm has a slightly better waiting and turnaround time than FCFS, but nonetheless, it is still significantly worse than the SJF algorithm. Since, it is based on priority, it neglects other factors that are important for optimal scheduling of classes.
+	 - Average turn around time: 10
+     
+        ![Priority Scheduling](https://i.imgur.com/IQUqzYr.png)
+
+        The Priority scheduling algorithm has a slightly better waiting and turnaround time than FCFS, but nonetheless, it is still significantly worse than the SJF algorithm. Since, it is based on priority, it neglects other factors that are important for optimal scheduling of classes.
 
 From the above, we can conclude that SJF algorithm provides the best scheduling solution for a class scheduling problem.
